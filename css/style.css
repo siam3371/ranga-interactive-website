@@ -18,13 +18,19 @@ body {
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
-  border-right: none;
 }
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
   margin-left: 20px;
 }
+/* add show details */
+.details-cart-display {
+  width: 32% !important;
+  margin-left: 60px !important;
+  margin-bottom: 15px !important;
+}
+
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -38,11 +44,13 @@ body {
 .single-product {
   padding: 10px;
   transition: 0.6s;
+  margin-left: 20px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
   border: 1px solid cyan;
+  background-color: rgb(158, 158, 184);
 }
 .product-image {
   width: 150px;
